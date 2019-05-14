@@ -1,2 +1,2 @@
-# service-vsts
-Bug Tracking Integration for Report Portal with VSTS. Post/Read bugs
+# vsts-integration
+Integration with Visual Studio Team Services Bug Tracking
