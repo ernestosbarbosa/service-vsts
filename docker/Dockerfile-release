@@ -8,6 +8,6 @@ ADD https://dl.bintray.com/epam/reportportal/com/epam/reportportal/${project.nam
 
 RUN sh -c 'touch /app.jar'
 
-EXPOSE 8080
+EXPOSE 8081
 
 ENTRYPOINT ["java","-Xmx256m","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]

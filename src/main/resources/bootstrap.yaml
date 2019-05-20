@@ -19,3 +19,8 @@ security:
 rp:
   vsts:
     native: vsts/native
+
+management:
+  health:
+    consul:
+      enabled: false

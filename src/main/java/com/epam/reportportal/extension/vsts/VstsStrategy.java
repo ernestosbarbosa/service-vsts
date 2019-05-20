@@ -42,4 +42,9 @@ public class VstsStrategy implements ExternalSystemStrategy {
     public List<PostFormField> getTicketFields(String issueType, ExternalSystem system) {
         return null;
     }
+
+    @Override
+    public List<String> getIssueTypes(ExternalSystem system) {
+        return null;
+    }
 }

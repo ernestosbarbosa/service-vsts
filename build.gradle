@@ -18,6 +18,7 @@ plugins {
 
 apply plugin: 'java'
 apply plugin: "org.springframework.boot"
+apply from: 'https://raw.githubusercontent.com/reportportal/gradle-scripts/master/build-docker.gradle'
 
 dependencyManagement {
     imports {
@@ -37,7 +38,7 @@ targetCompatibility = 1.8
 description = 'EPAM Report Portal. VSTS Integration'
 
 dependencies {
-    compile 'com.epam.reportportal:commons-bugtracking:3.1.0'
+    compile 'com.epam.reportportal:commons-bugtracking:4.2.0'
     compile 'com.epam.reportportal:commons:3.1.0'
 }
 
