@@ -12,7 +12,7 @@ buildscript {
 
 plugins {
     id "io.spring.dependency-management" version "1.0.3.RELEASE"
-    id 'net.researchgate.release' version '2.4.1'
+    id 'net.researchgate.release' version '2.7.0'
     id "com.jfrog.bintray" version "1.7"
 }
 
