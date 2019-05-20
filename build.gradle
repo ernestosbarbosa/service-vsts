@@ -38,8 +38,9 @@ targetCompatibility = 1.8
 description = 'EPAM Report Portal. VSTS Integration'
 
 dependencies {
-    compile 'com.epam.reportportal:commons-bugtracking:4.2.0'
     compile 'com.epam.reportportal:commons:3.1.0'
+    compile 'com.epam.reportportal:commons-bugtracking:4.2.0'
+    compile 'com.epam.reportportal:commons-model:4.2.0'
 }
 
 //task wrapper(type: Wrapper) {
