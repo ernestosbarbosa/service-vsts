@@ -18,7 +18,7 @@ public class VstsServiceApp extends BugTrackingApp {
 
     @Override
     public ExternalSystemStrategy externalSystemStrategy() {
-        return new VstsStrategy(context.getBean(InternalTicketAssembler.class));
+        return new VstsStrategy();
     }
 
     public static void main(String[] args) {

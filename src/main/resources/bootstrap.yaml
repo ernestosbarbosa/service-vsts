@@ -2,9 +2,9 @@ info:
   build:
     name: VSTS Service
     description: ReportPortal VSTS Integration
-    version: '@version@'
-    branch: '@branch@'
-    repo: '@repo@'
+    version: '1.0.0'
+    branch: 'master'
+    repo: 'vsts-repo'
 
 spring:
   application:
@@ -15,10 +15,6 @@ security:
   sessions: stateless
   basic:
     enabled: false
-
-rp:
-  vsts:
-    native: vsts/native
 
 management:
   health:

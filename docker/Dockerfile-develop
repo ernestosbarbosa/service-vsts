@@ -14,6 +14,6 @@ VOLUME /tmp
 ADD @name@-@version@.jar $JAVA_APP
 
 RUN sh -c 'touch $JAVA_APP'
-EXPOSE 8081
+EXPOSE 8080
 ENTRYPOINT ["/start.sh"]
 

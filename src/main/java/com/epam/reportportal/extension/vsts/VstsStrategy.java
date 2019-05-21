@@ -16,13 +16,6 @@ public class VstsStrategy implements ExternalSystemStrategy {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(VstsStrategy.class);
 
-    private InternalTicketAssembler ticketAssembler;
-
-    VstsStrategy(InternalTicketAssembler ticketAssembler) {
-        this.ticketAssembler = ticketAssembler;
-    }
-
-
     @Override
     public boolean checkConnection(ExternalSystem system) {
         return true;
