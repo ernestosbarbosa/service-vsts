@@ -1,7 +1,6 @@
 package com.epam.reportportal.extension.vsts;
 
 import com.epam.reportportal.extension.bugtracking.ExternalSystemStrategy;
-import com.epam.reportportal.extension.bugtracking.InternalTicketAssembler;
 import com.epam.ta.reportportal.database.entity.ExternalSystem;
 import com.epam.ta.reportportal.exception.ReportPortalException;
 import com.epam.ta.reportportal.ws.model.ErrorType;
@@ -12,7 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

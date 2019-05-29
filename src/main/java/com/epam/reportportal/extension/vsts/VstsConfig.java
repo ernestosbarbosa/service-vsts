@@ -1,6 +1,5 @@
 package com.epam.reportportal.extension.vsts;
 
-import com.epam.ta.reportportal.database.entity.ExternalSystem;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
