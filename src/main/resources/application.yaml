@@ -102,5 +102,5 @@ eureka:
 
 ### VSTS Agent
 vsts:
-  host: http://vsts
+  host: http://vsts-agent
   port: 3001
