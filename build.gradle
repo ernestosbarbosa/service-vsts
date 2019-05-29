@@ -44,6 +44,6 @@ dependencies {
     compile 'com.google.guava:guava:23.0'
 }
 
-task wrapper {
+task wrapper(type: Wrapper) {
     gradleVersion = '4.1'
 }
