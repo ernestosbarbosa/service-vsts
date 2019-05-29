@@ -46,7 +46,7 @@ dependencies {
     compile 'com.epam.reportportal:commons-bugtracking:4.2.0'
     compile 'com.google.guava:guava:23.0'
     compile 'com.google.code.gson:gson:2.8.5'
-    compile 'org.springframework.boot:spring-boot-starter-web:3.3.17.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:4.3.17.RELEASE'
 }
 
 //task wrapper(type: Wrapper) {
